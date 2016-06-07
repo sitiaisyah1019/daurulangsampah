@@ -1,0 +1,32 @@
+$backgroundColor: #2b2b2b;
+
+$mainFont: 'Lato', sans-serif;
+$mainFontSize: 36px;
+$mainColor: #eee;
+
+$blockMargin: 20px;
+
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'League Gothic', Impact, sans-serif;
+$headingColor: #eee;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.77em;
+$heading2Size: 2.11em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
+
+$linkColor: #13DAEC;
+$linkColorHover: lighten( $linkColor, 20% );
+
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+@mixin bodyBackground() {
+	background: $backgroundColor;
+}
